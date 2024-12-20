@@ -119,13 +119,11 @@ Model dievaluasi menggunakan:
 
 ### 🎨 **Visualisasi Hasil**
 #### 📊 Confusion Matrix
-
+Berikut adalah Confusion Matrix evaluasi untuk model Random Forest:
 ![Confusion Matrix Random Forest] (https://drive.google.com/file/d/1tzMRNrJYJt4BxMuvwrNMIpEc_o03Jjcg/view?usp=sharing)
 
 #### 🌐 Classification Report
-Berikut adalah metrik evaluasi untuk model:
-
-| **Kelas** | **Precision** | **Recall** | **F1-Score** |
+Berikut adalah Classification Report evaluasi untuk model Random Forest:
 |  **Kelas**   | **Precision** | **Recall** | **F1-Score** | **Support** |
 |:-------------|------------:  |---------:  |-----------:  |----------:  |
 | 0            |           1   |        1   |          1   |      3390   |
