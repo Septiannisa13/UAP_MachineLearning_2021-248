@@ -120,19 +120,24 @@ Model dievaluasi menggunakan:
 ### 🎨 **Visualisasi Hasil**
 #### 📊 Confusion Matrix
 
-![Confusion Matrix Random Forest (https://drive.google.com/file/d/1tzMRNrJYJt4BxMuvwrNMIpEc_o03Jjcg/view?usp=sharing)
+![Confusion Matrix Random Forest] (https://drive.google.com/file/d/1tzMRNrJYJt4BxMuvwrNMIpEc_o03Jjcg/view?usp=sharing)
 
 #### 🌐 Classification Report
 Berikut adalah metrik evaluasi untuk model:
 
 | **Kelas** | **Precision** | **Recall** | **F1-Score** |
-|-----------|---------------|------------|--------------|
-| 0         | 0.92          | 0.88       | 0.90         |
-| 1         | 0.71          | 0.40       | 0.51         |
-| 2         | 0.46          | 0.32       | 0.38         |
-| 3         | 0.34          | 0.24       | 0.28         |
-| 4         | 0.47          | 0.64       | 0.54         |
-| 5         | 0.54          | 0.78       | 0.64         |
+|  **Kelas**   | **Precision** | **Recall** | **F1-Score** | **Support** |
+|:-------------|------------:  |---------:  |-----------:  |----------:  |
+| 0            |           1   |        1   |          1   |      3390   |
+| 1            |           1   |        1   |          1   |      3322   |
+| 2            |           1   |        1   |          1   |      4210   |
+| 3            |           1   |        1   |          1   |      5070   |
+| 4            |           1   |        1   |          1   |      6789   |
+| 5            |           1   |        1   |          1   |      7043   |
+| accuracy     |           1   |        1   |          1   |         1   |
+| macro avg    |           1   |        1   |          1   |     29824   | 
+| weighted avg |           1   |        1   |          1   |     29824   |
+
 
 ---
 
