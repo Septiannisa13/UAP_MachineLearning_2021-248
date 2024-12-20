@@ -120,7 +120,7 @@ Model dievaluasi menggunakan:
 ### 🎨 **Visualisasi Hasil**
 #### 📊 Confusion Matrix
 
-![RF_CM]("C:\Users\Asus\Downloads\RF_CM.png")
+![Confusion Matrix Random Forest (https://drive.google.com/file/d/1tzMRNrJYJt4BxMuvwrNMIpEc_o03Jjcg/view?usp=sharing)
 
 #### 🌐 Classification Report
 Berikut adalah metrik evaluasi untuk model:
