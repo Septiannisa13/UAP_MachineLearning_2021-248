@@ -45,13 +45,13 @@ pdm init
 ```
 Ikuti petunjuk dengan menekan `y` atau `enter`.
 
-### 4. 🕵️‍♂️ **Instal Dependencies**
+### 4. 🔍 **Instal Dependencies**
 Jalankan perintah berikut untuk menginstal pustaka yang dibutuhkan:
 ```bash
 pdm install
 ```
 
-### 5. 📚 **Jalankan Aplikasi**
+### 5. 📙 **Jalankan Aplikasi**
 Navigasikan ke direktori aplikasi:
 ```bash
 cd src/<nama-directory>
@@ -105,8 +105,8 @@ Proyek ini memanfaatkan kombinasi algoritma **Machine Learning** dan **Deep Lear
 ### 📊 **Evaluasi Model**
 Model dievaluasi menggunakan:
 
-1. **Accuracy** 🔜 Persentase prediksi benar.
-2. **Confusion Matrix** 🔀 Menampilkan prediksi benar dan salah untuk tiap kelas.
+1. **Accuracy** 🚜 Persentase prediksi benar.
+2. **Confusion Matrix** 🔄 Menampilkan prediksi benar dan salah untuk tiap kelas.
 3. **Classification Report** 🌐 Metrik precision, recall, dan F1-score.
 
 ---
@@ -118,8 +118,21 @@ Model dievaluasi menggunakan:
 - **Logistic Regression** efektif untuk data linear tetapi kurang optimal untuk data kompleks.
 
 ### 🎨 **Visualisasi Hasil**
-- **Confusion Matrix:** Memberikan pemahaman visual tentang prediksi benar dan salah.
-- **Classification Report:** Menyediakan detail kinerja tiap model dalam format tabel.
+#### 📊 Confusion Matrix
+
+![Confusion Matrix](image.png)
+
+#### 🌐 Classification Report
+Berikut adalah metrik evaluasi untuk model:
+
+| **Kelas** | **Precision** | **Recall** | **F1-Score** |
+|-----------|---------------|------------|--------------|
+| 0         | 0.92          | 0.88       | 0.90         |
+| 1         | 0.71          | 0.40       | 0.51         |
+| 2         | 0.46          | 0.32       | 0.38         |
+| 3         | 0.34          | 0.24       | 0.28         |
+| 4         | 0.47          | 0.64       | 0.54         |
+| 5         | 0.54          | 0.78       | 0.64         |
 
 ---
 
