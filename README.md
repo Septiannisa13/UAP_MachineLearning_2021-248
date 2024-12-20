@@ -8,7 +8,7 @@ Proyek ini berfokus pada pengembangan aplikasi berbasis web untuk analisis data 
 
 ***Link Dataset yang digunakan: https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales***
 
-## Langkah Instalasi
+## 🔸Langkah Instalasi
 1. Membuat folder baru
 2. Membuka folder tersebut di VsCode
 3. Membuka terminal dengan menginputkan command "python -m venv myenv"
@@ -21,7 +21,7 @@ Proyek ini berfokus pada pengembangan aplikasi berbasis web untuk analisis data 
 10. Setelah seluruh fitur sudah dibuat sesuai dengan kreativitas masing-masing. Selanjutnya jalankan file app.py menggunakan command "pdm run start run app.py" atau "pdm run streamlit run app.py"
 11. Dashbard iteratif sudah siap untuk dijalankan
 
-## Langkah Preprocessing
+## 🔸Langkah Preprocessing
 Langkah-langkah ini dirancang untuk memastikan kualitas data yang optimal sebelum digunakan untuk pelatihan model. Dengan preprocessing yang tepat, model machine learning dapat bekerja lebih akurat dan robust terhadap tantangan dalam data.
 1. Penangann Missing Values
    - Kolom numerik: Nilai yang hilang diisi dengan rata-rata (mean) dari kolom tersebut menggunakan SimpleImputer.
@@ -36,4 +36,34 @@ Langkah-langkah ini dirancang untuk memastikan kualitas data yang optimal sebelu
    - Data dibagi menjadi data pelatihan (80%) dan data pengujian (20%) menggunakan train_test_split. Hal ini dilakukan untuk mengevaluasi performa model secara obyektif.
 7. Optimasi Tabnet
    - Untuk model TabNet, data diubah menjadi array NumPy agar kompatibel dengan framework PyTorch yang digunakan oleh TabNet.
+  
+## 🔸Deskripsi Model
+Proyek ini menggunakan berbagai algoritma machine learning dan deep learning, termasuk:
+1. Logistic Regression
+   - Model dasar untuk klasifikasi yang bekerja baik pada data dengan distribusi linear.
+2. Decision Tree
+   - Model non-linear yang memberikan representasi keputusan yang mudah dipahami.
+3. Random Forest
+   - Teknik ensemble yang menggabungkan banyak decision tree untuk meningkatkan akurasi prediksi dan mengurangi overfitting.
+4. Support Vector Machine (SVM)
+   - Algoritma yang membangun hyperplane untuk memisahkan kelas-kelas dalam data secara optimal.
+5. Neural Network (MLP)
+   - Model deep learning dengan lapisan tersembunyi untuk menangani kompleksitas data yang tinggi.
+6. TabNet
+   - Model deep learning khusus untuk data tabular yang memanfaatkan sparsity dan memberikan interpretasi bawaan terhadap fitur.
 
+### Evaluasi Performa Model
+Model dievaluasi menggunakan beberapa metrik:
+1. Accuracy: Persentase data yang diprediksi dengan benar.
+2. Confusion Matrix: Matriks yang menampilkan prediksi benar dan salah untuk setiap kelas.
+3. Classification Report: Tabel yang mencakup precision, recall, dan F1-score untuk setiap kelas.
+
+## 🔸Hasil dan Analisis
+Hasil evaluasi menunjukkan bahwa Random Forest dan TabNet memberikan akurasi tertinggi di antara semua model yang digunakan. Berikut adalah beberapa temuan penting:
+1. Akurasi Model
+   - Random Forest dan TabNet konsisten memberikan akurasi di atas 90% pada dataset pengujian.
+   - Logistic Regression bekerja baik untuk data dengan distribusi linear, namun kurang optimal pada data kompleks.
+2. Visualisasi Confusion Matrix
+   - Confusion Matrix memberikan gambaran tentang seberapa baik model mengklasifikasikan data, termasuk kesalahan prediksi pada setiap kelas.
+3. Grafik dan Tabel Evaluasi
+   - Classification Report menyajikan metrik evaluasi secara rinci, membantu pengguna memahami kekuatan dan kelemahan model.
