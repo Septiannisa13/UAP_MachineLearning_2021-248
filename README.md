@@ -27,13 +27,13 @@ Langkah-langkah ini dirancang untuk memastikan kualitas data yang optimal sebelu
    - Kolom numerik: Nilai yang hilang diisi dengan rata-rata (mean) dari kolom tersebut menggunakan SimpleImputer.
    - Kolom kategori: Data kategori yang kosong dienkode sebagai kategori baru atau diubah ke format string untuk menghindari error.
 2. Encoding Data Katagorikal
-   Kolom kategori dikonversi menjadi nilai numerik menggunakan LabelEncoder. Hal ini memungkinkan model machine learning memproses data kategorikal secara efektif.
-3. Normalisasi Data
+3. Kolom kategori dikonversi menjadi nilai numerik menggunakan LabelEncoder. Hal ini memungkinkan model machine learning memproses data kategorikal secara efektif.
+4. Normalisasi Data
    Kolom numerik diskalakan menggunakan StandardScaler agar memiliki mean 0 dan standar deviasi 1. Langkah ini penting untuk memastikan model seperti Logistic Regression, Neural Network, dan SVM bekerja optimal.
-4. Pemisahan Fitur dan Target
+5. Pemisahan Fitur dan Target
    Dataset dipisahkan menjadi kolom fitur (independen) dan target (dependen). Pengguna dapat memilih fitur dan target secara manual melalui antarmuka aplikasi.
-5. Split Data untuk Pelatihan dan Pengujian
+6. Split Data untuk Pelatihan dan Pengujian
    Data dibagi menjadi data pelatihan (80%) dan data pengujian (20%) menggunakan train_test_split. Hal ini dilakukan untuk mengevaluasi performa model secara obyektif.
-6. Optimasi Tabnet
+7. Optimasi Tabnet
     Untuk model TabNet, data diubah menjadi array NumPy agar kompatibel dengan framework PyTorch yang digunakan oleh TabNet.
 
