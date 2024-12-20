@@ -136,8 +136,6 @@ Hasil evaluasi menunjukkan bahwa **Random Forest** dan **TabNet** memberikan aku
 
 ---
 
-## 🔹 Link Live Demo
-Klik [di sini](#) untuk mencoba aplikasi yang telah di-deploy.
-
-Semoga proyek ini membantu Anda dalam menganalisis data penjualan dan membuat keputusan yang lebih baik berdasarkan data. 😊
+🙌👋🙏Sekian Terimakasih🙏👋🙌
+Semoga proyek ini membantu Anda dalam menganalisis data penjualan dan membuat keputusan yang lebih baik berdasarkan data😊
 
