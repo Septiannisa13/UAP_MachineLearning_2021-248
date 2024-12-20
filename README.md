@@ -138,7 +138,7 @@ Berikut adalah **Classification Report** hasil evaluasi untuk model **Random For
 
 #### 📊 Confusion Matrix
 Berikut adalah **Confusion Matrix** hasil evaluasi untuk model **TabNet**:
-![Confusion Matrix TabNet](https://drive.google.com/file/d/1SYvIFdHT0tBJzetaiNUs9MmfRX_n7rmN/view?usp=sharing)
+![Confusion Matrix TabNet](https://drive.google.com/uc?id=1SYvIFdHT0tBJzetaiNUs9MmfRX_n7rmN)
 
 #### 🌐 Classification Report
 Berikut adalah **Classification Report** hasil evaluasi untuk model **TabNet**:
