@@ -6,9 +6,9 @@
 
 Coffee Shop Maven Roasters adalah bisnis lokal yang beroperasi di tiga lokasi strategis di New York City. Sebagai salah satu coffee shop yang sedang berkembang, Maven Roasters ingin meningkatkan pengalaman pelanggan sekaligus mengoptimalkan operasional bisnis melalui pemanfaatan teknologi modern. Dalam era persaingan bisnis yang ketat, pengambilan keputusan berbasis data menjadi kunci untuk menjaga keberlanjutan dan pertumbuhan usaha. Proyek ini bertujuan untuk menciptakan **dashboard interaktif berbasis web** yang didukung oleh teknologi **Machine Learning (ML)** dan **Deep Learning (DL)**. Dashboard ini dirancang untuk membantu manajer operasional dan analis data Maven Roasters dalam memahami dan mengelola berbagai aspek bisnis mereka, termasuk:
 
-- ☑️ **Memahami pola penjualan** melalui visualisasi data.
-- 🔍 **Memprediksi performa produk** berdasarkan tren historis.
-- 💡 **Memberikan insight transparan** menggunakan framework interpretasi model seperti **SHAP**.
+- ☑️ **Memahami pola penjualan** Mengidentifikasi tren penjualan bulanan untuk setiap lokasi. Dengan analisis ini, manajer dapat mengetahui waktu puncak penjualan, produk terlaris, serta pola perilaku konsumen.
+- 🔍 **Memprediksi performa produk** Menggunakan model prediksi berbasis data historis, dashboard ini memungkinkan pengguna untuk memproyeksikan kinerja produk tertentu.
+- 💡 **Memberikan insight transparan** Proyek ini juga memanfaatkan framework interpretasi model seperti **SHAP (SHapley Additive exPlanations)** untuk memberikan penjelasan mendalam tentang keputusan model. Hal ini penting agar rekomendasi atau prediksi yang diberikan oleh sistem dapat dipahami secara jelas oleh manajer non-teknis.
 
 📊 **Dataset:** Tersedia di [Kaggle](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales).
 
@@ -16,7 +16,11 @@ Coffee Shop Maven Roasters adalah bisnis lokal yang beroperasi di tiga lokasi st
 
 ## 🚀 **Tujuan Utama Proyek**
 
-1. 🔄 **Analisis Data:** Mengidentifikasi tren bulanan, distribusi penjualan, dan insight lain.
+1. 🔄 **Analisis Data:**
+  Melakukan analisis mendalam terhadap data penjualan untuk mengidentifikasi:
+- Tren bulanan: Pola penjualan berdasarkan bulan yang mencakup produk mana yang paling laris pada periode tertentu.
+- Distribusi penjualan antar lokasi: Membandingkan kinerja tiga cabang Coffee Shop Maven Roasters di New York City.
+- Insight pelanggan: Memahami preferensi pelanggan berdasarkan kategori produk, waktu pembelian, dan pengaruh promosi.
 2. ⚛️ **Prediksi:** Membangun model klasifikasi untuk memprediksi produk dengan performa tinggi.
 3. 📊 **Dashboard Interaktif:** Memberikan hasil analisis dalam format visual yang mudah dipahami dan interaktif.
 
@@ -92,15 +96,40 @@ Untuk memastikan data siap digunakan oleh model machine learning, langkah prepro
 
 ## 🌐 **Deskripsi Model**
 
-Proyek ini memanfaatkan kombinasi algoritma **Machine Learning** dan **Deep Learning**:
+Proyek ini memanfaatkan kombinasi algoritma **Machine Learning (ML)** dan **Deep Learning (DL)** untuk analisis data penjualan dan prediksi performa produk. Setiap model dipilih berdasarkan kekuatan dan kemampuannya dalam menangani jenis data yang digunakan dalam proyek ini. Berikut adalah algoritma yang digunakan beserta deskripsinya:
 
 ### 🎉 **Algoritma yang Digunakan**
-1. **Logistic Regression** (📊 Simple dan Efektif)
-2. **Decision Tree** (🕵️‍♂️ Interaktif dan Transparan)
-3. **Random Forest** (🎨 Kombinasi Hebat dari Banyak Pohon)
-4. **Support Vector Machine (SVM)** (⚖️ Pemisahan Optimal Antar Kelas)
-5. **Neural Network (MLP)** (🤖 Model Deep Learning untuk Data Kompleks)
-6. **TabNet** (🎡 Spesialisasi Data Tabular)
+1. **📊 Logistic Regression** 
+- Sebuah model statistik yang digunakan untuk klasifikasi biner maupun multi-kelas.
+- Cocok untuk memprediksi hasil probabilistik, seperti apakah sebuah produk akan masuk dalam kategori "laku tinggi" atau "laku rendah."
+- Keunggulan: Mudah diimplementasikan, cepat, dan memberikan interpretasi yang jelas tentang pengaruh variabel input terhadap hasil prediksi.
+2. **🕵️‍♂️ Decision Tree** 
+- Model berbasis pohon keputusan yang memecah data menjadi subset berdasarkan fitur tertentu hingga mencapai keputusan akhir.
+- Cocok untuk memahami pola dalam data dan memberikan insight interpretatif.
+- Keunggulan: Sederhana, transparan, dan sangat baik dalam menangkap hubungan non-linear antar fitur.
+3. **🎨 Random Forest** 
+- Ensambel dari banyak pohon keputusan yang digabungkan untuk meningkatkan akurasi dan stabilitas prediksi.
+- Menggunakan teknik bootstrap dan random feature selection untuk menghasilkan model yang lebih tahan terhadap overfitting.
+- Keunggulan: Kuat, andal, dan mampu menangani dataset dengan banyak fitur dan korelasi antar variabel.
+4. **⚖️ Support Vector Machine (SVM)** 
+- Model berbasis margin yang mencari hyperplane optimal untuk memisahkan kelas-kelas dalam data.
+- Cocok untuk dataset dengan dimensi tinggi atau hubungan yang kompleks antar fitur.
+- Keunggulan: Kemampuan generalisasi yang baik, bahkan pada dataset yang kecil namun kompleks.
+5. **🤖 Neural Network (MLP)** 
+- **Multi-Layer Perceptron (MLP)** adalah arsitektur neural network yang terdiri dari lapisan input, hidden, dan output.
+- Cocok untuk menangani data dengan pola yang kompleks, seperti hubungan non-linear atau interaksi antar fitur yang sulit diidentifikasi oleh model tradisional.
+- Keunggulan: Kemampuan belajar yang fleksibel dan adaptif dengan data yang besar dan kompleks.
+6. **🎡 TabNet** 
+- Model deep learning yang dirancang khusus untuk data tabular dengan memanfaatkan teknik perhatian (attention).
+- Memadukan kekuatan neural network dan interpretasi yang baik pada data tabular, menjadikannya alternatif modern untuk model tradisional seperti Random Forest atau XGBoost.
+- Keunggulan: Mendukung interpretasi hasil dan sangat baik dalam menangkap hubungan antar kolom dalam data tabular.
+- 
+### **🕵️‍♂️ Pemilihan dan Kombinasi Model** 
+Setiap model akan diuji berdasarkan performanya pada data penjualan Coffee Shop Maven Roasters. Model terbaik dipilih berdasarkan:
+- Akurasi prediksi: Tingkat kecocokan antara hasil prediksi dan data aktual.
+- Interpretabilitas: Kemudahan memahami hasil dan pengaruh variabel input.
+- Kecepatan dan efisiensi: Waktu pemrosesan dan kebutuhan sumber daya komputasi.
+Dengan pendekatan ini, proyek memastikan bahwa solusi yang dihasilkan tidak hanya akurat tetapi juga mudah digunakan dan dipahami oleh pengguna non-teknis.
 
 ### 📊 **Evaluasi Model**
 Model dievaluasi menggunakan:
