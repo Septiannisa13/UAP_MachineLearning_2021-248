@@ -4,7 +4,7 @@
 
 ## 🎨 **Deskripsi Proyek UAP Machine Learning**
 
-Proyek ini bertujuan untuk menciptakan **dashboard interaktif berbasis web** yang dirancang khusus untuk **Coffee Shop Maven Roasters**. Coffee shop ini beroperasi di tiga lokasi strategis di New York City. Dengan teknologi **Machine Learning (ML)** dan **Deep Learning (DL)**, dashboard ini membantu manajer dan analis data dalam:
+Coffee Shop Maven Roasters adalah bisnis lokal yang beroperasi di tiga lokasi strategis di New York City. Sebagai salah satu coffee shop yang sedang berkembang, Maven Roasters ingin meningkatkan pengalaman pelanggan sekaligus mengoptimalkan operasional bisnis melalui pemanfaatan teknologi modern. Dalam era persaingan bisnis yang ketat, pengambilan keputusan berbasis data menjadi kunci untuk menjaga keberlanjutan dan pertumbuhan usaha. Proyek ini bertujuan untuk menciptakan **dashboard interaktif berbasis web** yang didukung oleh teknologi **Machine Learning (ML)** dan **Deep Learning (DL)**. Dashboard ini dirancang untuk membantu manajer operasional dan analis data Maven Roasters dalam memahami dan mengelola berbagai aspek bisnis mereka, termasuk:
 
 - ☑️ **Memahami pola penjualan** melalui visualisasi data.
 - 🔍 **Memprediksi performa produk** berdasarkan tren historis.
