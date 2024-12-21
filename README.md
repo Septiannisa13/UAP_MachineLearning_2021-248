@@ -207,4 +207,4 @@ Proyek ini berhasil mengintegrasikan **analisis data**, **model prediksi**, dan 
 ## 📌 **Informasi Pembuat**
 - Nama: Septiannisa Alya Shinya Purwandhani
 - NIM: 202110370311248
-- ✉️ alyaseptiannisa@gmail.com | 🌐 [LinkedIn](https://www.linkedin.com/in/septiannisa-alya-shinta-purwandhani-a748a9326/)
+- ✉️ alyaseptiannisa@gmail.com 
