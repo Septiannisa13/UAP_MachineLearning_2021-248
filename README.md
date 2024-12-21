@@ -124,7 +124,7 @@ Proyek ini memanfaatkan kombinasi algoritma **Machine Learning (ML)** dan **Deep
 - Memadukan kekuatan neural network dan interpretasi yang baik pada data tabular, menjadikannya alternatif modern untuk model tradisional seperti Random Forest atau XGBoost.
 - Keunggulan: Mendukung interpretasi hasil dan sangat baik dalam menangkap hubungan antar kolom dalam data tabular.
 - 
-### **🕵️‍♂️ Pemilihan dan Kombinasi Model** 
+**🕵️‍♂️ Pemilihan dan Kombinasi Model** 
 Setiap model akan diuji berdasarkan performanya pada data penjualan Coffee Shop Maven Roasters. Model terbaik dipilih berdasarkan:
 - Akurasi prediksi: Tingkat kecocokan antara hasil prediksi dan data aktual.
 - Interpretabilitas: Kemudahan memahami hasil dan pengaruh variabel input.
@@ -134,9 +134,31 @@ Dengan pendekatan ini, proyek memastikan bahwa solusi yang dihasilkan tidak hany
 ### 📊 **Evaluasi Model**
 Model dievaluasi menggunakan:
 
-1. **Accuracy** 🚜 Persentase prediksi benar.
-2. **Confusion Matrix** 🔄 Menampilkan prediksi benar dan salah untuk tiap kelas.
-3. **Classification Report** 🌐 Metrik precision, recall, dan F1-score.
+1. **🚜 Accuracy**  
+- Definisi: Persentase prediksi yang benar dari total data yang diuji.
+- Kegunaan: Memberikan gambaran umum tentang kinerja model, terutama pada dataset dengan distribusi kelas yang seimbang.
+2. **🔄 Confusion Matrix**  
+- Definisi: Matriks yang menunjukkan jumlah prediksi benar dan salah untuk setiap kelas.
+- Komponen Utama:
+-- True Positive (TP): Prediksi benar untuk kelas positif.
+-- True Negative (TN): Prediksi benar untuk kelas negatif.
+-- False Positive (FP): Prediksi salah untuk kelas positif (false alarm).
+-- False Negative (FN): Prediksi salah untuk kelas negatif (missed detection).
+- Kegunaan: Membantu memahami jenis kesalahan yang dilakukan model, yang sangat penting untuk aplikasi di mana kesalahan tertentu lebih kritis daripada yang lain.
+3. **🌐 Classification Report** 
+- Definisi: Laporan yang mencakup metrik-metrik utama seperti precision, recall, dan F1-score untuk setiap kelas.
+- Komponen Utama:
+-- Precision: Proporsi prediksi positif yang benar (TP / (TP + FP)).
+--- Berguna untuk mengukur keandalan prediksi model, terutama dalam kasus false positive yang kritis.
+-- Recall (Sensitivity): Proporsi data positif yang benar-benar terdeteksi (TP / (TP + FN)).
+--- Penting untuk memastikan model tidak melewatkan data positif (false negative minimal).
+-- F1-score: Rata-rata harmonis antara precision dan recall (2 * (Precision * Recall) / (Precision + Recall)).
+---Menggabungkan precision dan recall menjadi satu metrik, terutama berguna jika dataset memiliki ketidakseimbangan kelas.
+- Kegunaan: Menyediakan analisis yang lebih komprehensif daripada hanya menggunakan accuracy, terutama untuk dataset dengan distribusi kelas yang tidak merata.
+
+**🕵️‍♂️ Pemilihan dan Kombinasi Model** 
+- Model akan dievaluasi pada data validasi atau data testing untuk memastikan kemampuan generalisasi.
+- Hasil evaluasi akan digunakan untuk membandingkan performa berbagai algoritma, sehingga model terbaik dapat dipilih berdasarkan kebutuhan bisnis dan kriteria performa.
 
 ---
 
@@ -144,7 +166,7 @@ Model dievaluasi menggunakan:
 
 🌈 **Insight Utama:**
 - **Random Forest** dan **TabNet** menunjukkan performa terbaik dengan akurasi di atas **90%**.
-- **Logistic Regression** efektif untuk data linear tetapi kurang optimal untuk data kompleks.
+- **Logistic Regression** dan **SVM** efektif untuk data linear tetapi kurang optimal untuk data kompleks.
 
 ### 🎨 **Visualisasi Hasil**
 #### 📊 Confusion Matrix
@@ -188,5 +210,11 @@ Berikut adalah **Classification Report** hasil evaluasi untuk model **TabNet**:
 ## 🙏 **Kesimpulan**
 Proyek ini berhasil mengintegrasikan **analisis data**, **model prediksi**, dan **dashboard interaktif** untuk meningkatkan pengambilan keputusan berbasis data di Coffee Shop Maven Roasters.
 
-💖 **Terima kasih telah membaca! Semoga proyek ini membantu Anda membuat strategi penjualan yang lebih efektif!** 🌟
+💖 **Terima kasih telah membaca! Semoga proyek ini memberikan inspirasi dan membantu Anda dalam mengembangkan strategi penjualan yang lebih efektif dan berorientasi pada pelanggan** 🌟
 
+---
+## 📌 **Informasi Pembuat**
+Nama: Septiannisa Alya Shinya Purwandhani
+NIM: 202110370311248
+
+Terima kasih atas perhatian dan dukungan Anda! 😊
