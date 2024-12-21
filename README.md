@@ -193,8 +193,8 @@ Berikut adalah **Classification Report** hasil evaluasi untuk model **TabNet**:
 | **4**            | 0.984         | 0.948     | 0.966      | 6435      |
 | **5**            | 0.974         | 0.985     | 0.980      | 6939      |
 | **Accuracy**     |               |           | 0.980      |           |
-| **Macro Avg**    | 0.982         | 0.982     | 0.982      | 29824     |
-| **Weighted Avg** | 0.980         | 0.980     | 0.980      | 29824     |
+| **Macro Avg**    | 0.982         | 0.982     | 0.982      | 29221     |
+| **Weighted Avg** | 0.980         | 0.980     | 0.980      | 29221     |
 
 ---
 
