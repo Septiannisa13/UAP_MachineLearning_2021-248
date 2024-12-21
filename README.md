@@ -121,7 +121,7 @@ Proyek ini memanfaatkan kombinasi algoritma **Machine Learning (ML)** dan **Deep
 - Keunggulan: Kemampuan belajar yang fleksibel dan adaptif dengan data yang besar dan kompleks.
 6. **🎡 TabNet** 
 - Model deep learning yang dirancang khusus untuk data tabular dengan memanfaatkan teknik perhatian (attention).
-- Memadukan kekuatan neural network dan interpretasi yang baik pada data tabular, menjadikannya alternatif modern untuk model tradisional seperti Random Forest atau XGBoost.
+- Memadukan kekuatan neural network dan interpretasi yang baik pada data tabular, menjadikannya alternatif modern untuk model tradisional seperti Random Forest.
 - Keunggulan: Mendukung interpretasi hasil dan sangat baik dalam menangkap hubungan antar kolom dalam data tabular.
 
 ### 📊 **Evaluasi Model**
@@ -133,20 +133,20 @@ Model dievaluasi menggunakan:
 2. **🔄 Confusion Matrix**  
 - Definisi: Matriks yang menunjukkan jumlah prediksi benar dan salah untuk setiap kelas.
 - Komponen Utama:
--- True Positive (TP): Prediksi benar untuk kelas positif.
--- True Negative (TN): Prediksi benar untuk kelas negatif.
--- False Positive (FP): Prediksi salah untuk kelas positif (false alarm).
--- False Negative (FN): Prediksi salah untuk kelas negatif (missed detection).
+  - True Positive (TP): Prediksi benar untuk kelas positif.
+  - True Negative (TN): Prediksi benar untuk kelas negatif.
+  - False Positive (FP): Prediksi salah untuk kelas positif (false alarm).
+  - False Negative (FN): Prediksi salah untuk kelas negatif (missed detection).
 - Kegunaan: Membantu memahami jenis kesalahan yang dilakukan model, yang sangat penting untuk aplikasi di mana kesalahan tertentu lebih kritis daripada yang lain.
 3. **🌐 Classification Report** 
 - Definisi: Laporan yang mencakup metrik-metrik utama seperti precision, recall, dan F1-score untuk setiap kelas.
 - Komponen Utama:
--- Precision: Proporsi prediksi positif yang benar (TP / (TP + FP)).
---- Berguna untuk mengukur keandalan prediksi model, terutama dalam kasus false positive yang kritis.
--- Recall (Sensitivity): Proporsi data positif yang benar-benar terdeteksi (TP / (TP + FN)).
---- Penting untuk memastikan model tidak melewatkan data positif (false negative minimal).
--- F1-score: Rata-rata harmonis antara precision dan recall (2 * (Precision * Recall) / (Precision + Recall)).
----Menggabungkan precision dan recall menjadi satu metrik, terutama berguna jika dataset memiliki ketidakseimbangan kelas.
+  - Precision: Proporsi prediksi positif yang benar (TP / (TP + FP)).
+    - Berguna untuk mengukur keandalan prediksi model, terutama dalam kasus false positive yang kritis.
+  - Recall (Sensitivity): Proporsi data positif yang benar-benar terdeteksi (TP / (TP + FN)).
+    - Penting untuk memastikan model tidak melewatkan data positif (false negative minimal).
+  - F1-score: Rata-rata harmonis antara precision dan recall (2 * (Precision * Recall) / (Precision + Recall)).
+    - Menggabungkan precision dan recall menjadi satu metrik, terutama berguna jika dataset memiliki ketidakseimbangan kelas.
 - Kegunaan: Menyediakan analisis yang lebih komprehensif daripada hanya menggunakan accuracy, terutama untuk dataset dengan distribusi kelas yang tidak merata.
 
 ---
