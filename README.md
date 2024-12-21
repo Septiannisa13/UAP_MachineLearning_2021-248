@@ -164,17 +164,19 @@ Berikut adalah **Confusion Matrix** hasil evaluasi untuk model **Random Forest**
 
 #### 🌐 Classification Report
 Berikut adalah **Classification Report** hasil evaluasi untuk model **Random Forest**:
-|  **Kelas**   | **Precision** | **Recall** | **F1-Score** | **Support** |
-|:-------------|------------:  |---------:  |-----------:  |----------:  |
-| 0            |           1   |        1   |          1   |      3390   |
-| 1            |           1   |        1   |          1   |      3322   |
-| 2            |           1   |        1   |          1   |      4210   |
-| 3            |           1   |        1   |          1   |      5070   |
-| 4            |           1   |        1   |          1   |      6789   |
-| 5            |           1   |        1   |          1   |      7043   |
-| accuracy     |               |            |          1   |             |
-| macro avg    |           1   |        1   |          1   |     29824   | 
-| weighted avg |           1   |        1   |          1   |     29824   |
+
+|  **Kelas**       | **Precision** | **Recall**|**F1-Score**|**Support**|
+|------------------|---------------|-----------|------------|-----------|
+| **0**            | 1.000         | 1.000     | 1.000      | 3390      |
+| **1**            | 1.000         | 1.000     | 1.000      | 3322      |
+| **2**            | 1.000         | 1.000     | 1.000      | 4210      |
+| **3**            | 1.000         | 1.000     | 1.000      | 5070      |
+| **4**            | 1.000         | 1.000     | 1.000      | 6789      |
+| **5**            | 1.000         | 1.000     | 1.000      | 7043      |
+| **Accuracy**     |               |           | 1.000      |           |
+| **Macro Avg**    | 1.000         | 1.000     | 1.000      | 29824     |
+| **Weighted Avg** | 1.000         | 1.000     | 1.000      | 29824     |
+
 
 #### 📊 Confusion Matrix
 Berikut adalah **Confusion Matrix** hasil evaluasi untuk model **TabNet**:
