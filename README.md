@@ -149,10 +149,6 @@ Model dievaluasi menggunakan:
 ---Menggabungkan precision dan recall menjadi satu metrik, terutama berguna jika dataset memiliki ketidakseimbangan kelas.
 - Kegunaan: Menyediakan analisis yang lebih komprehensif daripada hanya menggunakan accuracy, terutama untuk dataset dengan distribusi kelas yang tidak merata.
 
-**🕵️‍♂️ Pemilihan dan Kombinasi Model** 
-- Model akan dievaluasi pada data validasi atau data testing untuk memastikan kemampuan generalisasi.
-- Hasil evaluasi akan digunakan untuk membandingkan performa berbagai algoritma, sehingga model terbaik dapat dipilih berdasarkan kebutuhan bisnis dan kriteria performa.
-
 ---
 
 ## 🌸 **Hasil & Analisis**
@@ -176,7 +172,7 @@ Berikut adalah **Classification Report** hasil evaluasi untuk model **Random For
 | 3            |           1   |        1   |          1   |      5070   |
 | 4            |           1   |        1   |          1   |      6789   |
 | 5            |           1   |        1   |          1   |      7043   |
-| accuracy     |           1   |        1   |          1   |         1   |
+| accuracy     |               |            |          1   |             |
 | macro avg    |           1   |        1   |          1   |     29824   | 
 | weighted avg |           1   |        1   |          1   |     29824   |
 
