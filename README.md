@@ -123,13 +123,6 @@ Proyek ini memanfaatkan kombinasi algoritma **Machine Learning (ML)** dan **Deep
 - Model deep learning yang dirancang khusus untuk data tabular dengan memanfaatkan teknik perhatian (attention).
 - Memadukan kekuatan neural network dan interpretasi yang baik pada data tabular, menjadikannya alternatif modern untuk model tradisional seperti Random Forest atau XGBoost.
 - Keunggulan: Mendukung interpretasi hasil dan sangat baik dalam menangkap hubungan antar kolom dalam data tabular.
-- 
-**🕵️‍♂️ Pemilihan dan Kombinasi Model** 
-Setiap model akan diuji berdasarkan performanya pada data penjualan Coffee Shop Maven Roasters. Model terbaik dipilih berdasarkan:
-- Akurasi prediksi: Tingkat kecocokan antara hasil prediksi dan data aktual.
-- Interpretabilitas: Kemudahan memahami hasil dan pengaruh variabel input.
-- Kecepatan dan efisiensi: Waktu pemrosesan dan kebutuhan sumber daya komputasi.
-Dengan pendekatan ini, proyek memastikan bahwa solusi yang dihasilkan tidak hanya akurat tetapi juga mudah digunakan dan dipahami oleh pengguna non-teknis.
 
 ### 📊 **Evaluasi Model**
 Model dievaluasi menggunakan:
@@ -214,7 +207,5 @@ Proyek ini berhasil mengintegrasikan **analisis data**, **model prediksi**, dan 
 
 ---
 ## 📌 **Informasi Pembuat**
-Nama: Septiannisa Alya Shinya Purwandhani
-NIM: 202110370311248
-
-Terima kasih atas perhatian dan dukungan Anda! 😊
+- Nama: Septiannisa Alya Shinya Purwandhani
+- NIM: 202110370311248
