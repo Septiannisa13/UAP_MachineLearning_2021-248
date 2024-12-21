@@ -204,7 +204,7 @@ Proyek ini berhasil mengintegrasikan **analisis data**, **model prediksi**, dan 
 💖 **Terima kasih telah membaca! Semoga proyek ini memberikan inspirasi dan membantu Anda dalam mengembangkan strategi penjualan yang lebih efektif dan berorientasi pada pelanggan** 🌟
 
 ---
-## 📌 **Informasi Pembuat**
+## 📌 **Author**
 - Nama: Septiannisa Alya Shinya Purwandhani
 - NIM: 202110370311248
 - ✉️ alyaseptiannisa@gmail.com 
